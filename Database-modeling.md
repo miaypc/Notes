@@ -6,8 +6,12 @@
 #### It describes all the tables, relations between the tables and data constraints.
 
 There are 3 types of relations:
+
 one-to-one
+
 one-to-many
+
 many-to-many
+
 ![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/database.png)
 
