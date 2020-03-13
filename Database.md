@@ -1,30 +1,10 @@
 
 ## How to passing children in React
-export default function App() {
-  return (
-    <div className="App">
-      <Example header={<h1>hello</h1>}>
-        <h2>world</h2>
-        <p>!!!!</p>
-      </Example>
-    </div>
-  );
-}
 
-import React from "react";
-
-function Example({ children, header }) {
-  return (
-    <div>
-      {header}
-
-      {children}
-    </div>
-  );
-}
-
-export default Example;
-
+#### in app.js
+![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/app.png)
+### in another.js
+![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/example.png)
 
 
 ## What is a DB model?
