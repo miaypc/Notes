@@ -5,3 +5,9 @@
 #### A Relational db Model is the type of database model that describes Relational Databases.
 #### It describes all the tables, relations between the tables and data constraints.
 
+There are 3 types of relations:
+one-to-one
+one-to-many
+many-to-many
+
+
