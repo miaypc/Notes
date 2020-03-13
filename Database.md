@@ -1,9 +1,9 @@
 
 ## How to passing children in React
 
-#### in app.js
+##### in app.js
 ![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/app.png)
-### in another.js
+#### in another.js
 ![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/example.png)
 
 
