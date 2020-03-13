@@ -17,10 +17,16 @@
 There are 3 types of relations:
 
 one-to-one
+![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/onetoone.png)
 
 one-to-many
+![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/onetomany.png)
 
 many-to-many
+![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/nonton.png)
+![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/addonemore.png)
 
+
+Example:
 ![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/database.png)
 
