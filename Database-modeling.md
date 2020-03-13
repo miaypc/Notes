@@ -9,5 +9,5 @@ There are 3 types of relations:
 one-to-one
 one-to-many
 many-to-many
-
+![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/database.png)
 
