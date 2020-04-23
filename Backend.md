@@ -2,35 +2,35 @@
 
 ## Create the most basic skeleton
 
-##### 1. create the folders and server.js inside Back
+#### 1. create the folders and server.js inside Back
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-one.png)
 
-##### 2. Terminal --in Back: 
+#### 2. Terminal --in Back: 
    npm init -y
    yarn add mongoose
    yarn add -D nodemon
    yarn add express
    
-##### 3. in server.js
+#### 3. in server.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-two.png)
 
-##### 4. in package.json:
+#### 4. in package.json:
    under "scripts" add:
   "dev": "nodemon server.js"
 
-##### 5. in terminal:
+#### 5. in terminal:
    yarn dev
    
- ##### 6. in postman:
+ #### 6. in postman:
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-three.png)
 
 ## Connect with Mongo
 
-##### 1. in server.js
+#### 1. in server.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-four.png)
 
-##### 2.define model:
-   ##### inside models, create todo.model.js
+#### 2.define model:
+   #### inside models, create todo.model.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-five.png)
    
   ##### in todo.model.js (creating the table)
@@ -38,19 +38,22 @@
    
 ## Create-Post
    
-##### create functions
-   ##### inside services, create todo.services.js
+#### create functions
+   #### inside services, create todo.services.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-8.png)
+   
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-9.png)
    
-##### create controllers
-   ##### inside controllers, create todo.controller.js
+#### create controllers
+   #### inside controllers, create todo.controller.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-10.png)
+   
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-11.png)
    
-##### create routes
-   ##### inside routes, create todo.model.js
+#### create routes
+   #### inside routes, create todo.model.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-7.png)
+   
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-12.png)
    
 ## Check in Postman
