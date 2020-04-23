@@ -29,7 +29,7 @@
 #### 1. in server.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-four.png)
 
-#### 2.define model:
+#### 2. define model:
    #### inside models, create todo.model.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-five.png)
    
@@ -38,26 +38,42 @@
    
 ## Create-Post
    
-#### 1.create functions
+#### 1. create functions
    #### inside services, create todo.services.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-8.png)
    
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-9.png)
    
-#### 2.create controllers
-   #### inside controllers, create todo.controller.js
+#### 2. create controllers
+   #### inside controllers, create todo.controllers.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-10.png)
    
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-11.png)
    
-#### 3.create routes
+#### 3. create routes
    #### inside routes, create todo.model.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-7.png)
    
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-12.png)
    
-#### 4.Check in Postman
+#### 4. Check in Postman
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-13.png)
+
+## Read-Get
+
+#### 1. in todo.services.js (remember to export)
+![Image](https://github.com/miaypc/Notes/blob/master/images/backend-14.png)
+
+#### 2. in todo.controllers.js (remember to export)
+![Image](https://github.com/miaypc/Notes/blob/master/images/backend-15.png)
+
+#### 3. in todo.routers.js
+![Image](https://github.com/miaypc/Notes/blob/master/images/backend-16.png)
+
+#### 3. in Postman
+![Image](https://github.com/miaypc/Notes/blob/master/images/backend-17.png)
+
+
  
 
 
