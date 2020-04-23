@@ -1,8 +1,9 @@
-## Backend ---Todo List
+# Backend ---Todo List
 
-### create the most basic skeleton
+## Create the most basic skeleton
+
 ##### 1. create the folders and server.js inside Back
-![Image of one](https://github.com/miaypc/Notes/blob/master/images/backend-one.png)
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-one.png)
 
 ##### 2. Terminal --in Back: 
    npm init -y
@@ -11,7 +12,7 @@
    yarn add express
    
 ##### 3. in server.js
-![Image of one](https://github.com/miaypc/Notes/blob/master/images/backend-two.png)
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-two.png)
 
 ##### 4. in package.json:
    under "scripts" add:
@@ -21,18 +22,39 @@
    yarn dev
    
  ##### 6. in postman:
- ![Image of one](https://github.com/miaypc/Notes/blob/master/images/backend-three.png)
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-three.png)
 
-### connect with Mongo
+## Connect with Mongo
 
 ##### 1. in server.js
-![Image of one](https://github.com/miaypc/Notes/blob/master/images/backend-four.png)
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-four.png)
 
 ##### 2.define model:
-   #####inside models, create todo.model.js
-   ![Image of one](https://github.com/miaypc/Notes/blob/master/images/backend-five.png)
+   ##### inside models, create todo.model.js
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-five.png)
    
   ##### in todo.model.js (creating the table)
-   ![Image of one](https://github.com/miaypc/Notes/blob/master/images/backend-six.png)
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-six.png)
+   
+## Create-Post
+   
+##### create functions
+   ##### inside services, create todo.services.js
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-8.png)
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-9.png)
+   
+##### create controllers
+   ##### inside controllers, create todo.controller.js
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-10.png)
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-11.png)
+   
+##### create routes
+   ##### inside routes, create todo.model.js
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-7.png)
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-12.png)
+   
+## Check in Postman
+   ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-13.png)
+ 
 
 
