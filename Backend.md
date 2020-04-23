@@ -38,25 +38,25 @@
    
 ## Create-Post
    
-#### create functions
+#### 1.create functions
    #### inside services, create todo.services.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-8.png)
    
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-9.png)
    
-#### create controllers
+#### 2.create controllers
    #### inside controllers, create todo.controller.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-10.png)
    
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-11.png)
    
-#### create routes
+#### 3.create routes
    #### inside routes, create todo.model.js
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-7.png)
    
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-12.png)
    
-## Check in Postman
+#### 4.Check in Postman
    ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-13.png)
  
 
