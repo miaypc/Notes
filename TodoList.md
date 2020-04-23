@@ -96,14 +96,16 @@
 #### outside Back folder, in terminal: npx creat-react-Front
 
 ### review Hooks
-function App(){
-	const [counter, setCounter] = React.useState(0);
-	return
-		<div>
-			<h1>{counter}</h1>
-			<button onClick ={() => setCounter(counter + 1 )}> increment </button>
-		</div>
+```
+function App(){  
+   const [counter, setCounter] = React.useState(0); 
+   return
+      <div>
+         <h1>{counter}</h1>
+         <button onClick ={() => setCounter(counter + 1 )}> increment </button>
+      </div>
 }
+```
 
 ### review Reducer
 #### if we want to have mutiple actions, we can create reducer.
