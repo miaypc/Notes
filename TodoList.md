@@ -1,4 +1,6 @@
-# Backend ---Todo List
+# Todo List
+
+# Back
 
 ## Create the most basic skeleton
 
@@ -87,3 +89,37 @@
 ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-20.png)
 
 
+# Front
+
+## create create app
+
+#### outside Back folder, in terminal: npx creat-react-Front
+
+### review Hooks
+
+function App(){
+   const [counter, setCounter] = React.useState(0);
+   return
+      <div>
+         <h1>{counter}</h1>
+         <button onClick ={() => setCounter(counter + 1 )}> increment </button>
+      </div>
+}
+
+### review Reducer
+#### if we want to have mutiple actions, we can create reducer.
+
+function reducer(state, action) {
+swict
+function App(){
+   const initialState = {
+   counter: 0
+   }
+   const [counter, setCounter] = React.useState(0);
+   const [state, dispatch] = React. useReducer(reducer, initialState)
+   return
+      <div>
+         <h1>{counter}</h1>
+         <button onClick ={() => setCounter(counter + 1 )}> increment </button>
+      </div>
+}
