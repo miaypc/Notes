@@ -108,6 +108,7 @@ function App(){
 ### review Reducer
 #### if we want to have mutiple actions, we can create reducer.
 
+```
 function reducer(state, action) {
 swict
 function App(){
@@ -122,3 +123,4 @@ function App(){
          <button onClick ={() => setCounter(counter + 1 )}> increment </button>
       </div>
 }
+```
