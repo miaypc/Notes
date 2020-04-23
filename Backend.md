@@ -73,7 +73,17 @@
 #### 3. in Postman
 ![Image](https://github.com/miaypc/Notes/blob/master/images/backend-17.png)
 
-
+## getById,Patch-Update,Delete
+   #### follow the same steps as before.
+   
  
+#### 1. in todo.services.js (remember to export)
+![Image](https://github.com/miaypc/Notes/blob/master/images/backend-18.png)
+
+#### 2. in todo.controllers.js (remember to export)
+![Image](https://github.com/miaypc/Notes/blob/master/images/backend-19.png)
+
+#### 3. in todo.routers.js
+![Image](https://github.com/miaypc/Notes/blob/master/images/backend-20.png)
 
 
