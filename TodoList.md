@@ -112,17 +112,24 @@ function App(){
 
 ```
 function reducer(state, action) {
-swict
-function App(){
-   const initialState = {
-   counter: 0
+   swicth (action.type){
+      case "INCREMENT":
+         return {...state, counter:state.counter + 1}
+       case "DECREMENT":
+         return {...state, counter:state.counter - 1}
+      default:
+         return state;  
    }
-   const [counter, setCounter] = React.useState(0);
+}
+
+function App(){
+   const initialState = { counter: 0 }
    const [state, dispatch] = React. useReducer(reducer, initialState)
    return
       <div>
-         <h1>{counter}</h1>
-         <button onClick ={() => setCounter(counter + 1 )}> increment </button>
+         <h1>{state.counter}</h1>
+         <button onClick ={() => dispatch({type:"INCREMENT")}> increment </button>
+         <button onClick ={() => dispatch({type:"DECREMENT")}> decrement </button>
       </div>
 }
 ```
